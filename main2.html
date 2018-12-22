@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+ <script src="js1.js" defer></script>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+    $("#flip1").click(function(){
+        $("#panel1").slideToggle("slow");
+    });
+});
+$(document).ready(function(){
+    $("#flip2").click(function(){
+        $("#panel2").slideToggle("slow");
+    });
+});
+$(document).ready(function(){
+    $("#flip3").click(function(){
+        $("#panel3").slideToggle("slow");
+    });
+});
+</script>
+<meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css?family=Maven+Pro" rel="stylesheet">
+<link rel="stylesheet" href="main2.css">
+</head>
+<body>
+<div class="main">
+<div class="main-overlay"></div>
+<div class="header">
+<div class="logo">
+</div>
+<div class="menu">
+<ul>
+<li><a href="/Applications/XAMPP/xamppfiles/htdocs/main.html" class="menu-link">Наш салон</a></li>
+<li><a href="/Applications/XAMPP/xamppfiles/htdocs/main2.html" class="menu-link">Услуги</a></li>
+<li><a href="/Applications/XAMPP/xamppfiles/htdocs/main3.html" class="menu-link">Товары</a></li>
+<li><a href="/Applications/XAMPP/xamppfiles/htdocs/main5.html" class="menu-link">Мастер</a></li>
+<li><a href="Applications/XAMPP/xamppfiles/htdocs/main6.html" class="registration">регистрация</a></li>
+</ul>
+</div>
+
+</div>
+<div class="main-text">
+<span>------- carpe diem -------</span>
+<h1>Услуги и цены</h1>
+<p>Салоны красоты Familia в Астане предоставляют широкий перечень beauty-услуг </p>
+<p>для клиентов самых разных возрастов. Мастера наших салонов готовы по антикризисным </p>
+<p>ценам воплотить в жизнь любые мечты и создать для вас новый, привлекательный образ.</p>
+</div>
+<div class="main-arrow">
+</div>
+</div>
+    <div id="bigImage">
+      <img id="i1" src="https://images.unsplash.com/photo-1472747624745-ce92d32d3c24?auto=format&fit=crop&w=1052&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D"/>
+    </div>
+
+    <div id="carousel">
+          <img id="i1" onclick='clickMe("https://images.unsplash.com/photo-1467874296018-2d8c22ac94a0?auto=format&fit=crop&w=1050&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D")' src="https://images.unsplash.com/photo-1467874296018-2d8c22ac94a0?auto=format&fit=crop&w=1050&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D"/>
+          <img id="i2" onclick='clickMe("https://images.unsplash.com/photo-1510684886945-d98bce219ecb?auto=format&fit=crop&w=1050&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D")' src="https://images.unsplash.com/photo-1510684886945-d98bce219ecb?auto=format&fit=crop&w=1050&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D"/>
+          <img id="i3" onclick='clickMe("https://images.unsplash.com/photo-1474648676916-0558486e7fa0?auto=format&fit=crop&w=1050&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D")' src="https://images.unsplash.com/photo-1474648676916-0558486e7fa0?auto=format&fit=crop&w=1050&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D"/>
+          <img id="i4" onclick='clickMe("https://images.unsplash.com/photo-1501845073335-1cb7bf68ff55?auto=format&fit=crop&w=1050&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D")' src="https://images.unsplash.com/photo-1501845073335-1cb7bf68ff55?auto=format&fit=crop&w=1050&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D"/>
+          <img id="i5" onclick='clickMe("https://images.unsplash.com/photo-1472152123159-b189e9d193f3?auto=format&fit=crop&w=1052&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D")' src="https://images.unsplash.com/photo-1472152123159-b189e9d193f3?auto=format&fit=crop&w=1052&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D"/>
+    </div>
+    
+<div id="flip1">Парихмахер</div>
+<div id="panel1">
+
+<table>
+<tr>
+    <th>Длина волос</th>
+    <th>Короткие
+       (до 25 см)</th>
+    <th>Средние
+        (до 35 см)</th>
+    <th>Длинные
+    (свыше 35 см)</th>
+   </tr>
+   <tr><td>Стрижка модельная (мытье+укладка по форме)</td>
+   <td>3000 </td>
+   <td>4000</td>
+   <td>5000</td>
+   </tr>
+    <tr><td>Стрижка креативная  (мытье+укладка по форме)</td>
+   <td>3500 </td>
+   <td>4500</td>
+   <td>5500</td>
+   </tr>
+    <tr><td>Стрижка / коррекция челки</td>
+   <td>1000 </td>
+   </tr>
+   <tr><td>Подравнивание одним срезом</td>
+   <td>1000 </td>
+   </tr>
+   <tr><td>Стрижка модельная (мытье+укладка по форме)</td>
+   <td>3000 </td>
+   <td>4000</td>
+   <td>5000</td>
+   </tr>
+   <tr><td>Полировка волос (мытье+укладка по форме)</td>
+   <td>3000 </td>
+   <td>4000</td>
+   <td>5000</td>
+   </tr>
+   <tr><td>Укладка волос феном (мытье+укладка по форме)</td>
+   <td>3000 </td>
+   <td>4000</td>
+   <td>5000</td>
+   </tr>
+   <tr><td>Укладка волос термоинструментами (мытье+укладка по форме)</td>
+   <td>3000 </td>
+   <td>4000</td>
+   <td>5000</td>
+   </tr>
+
+
+</table>
+</div>
+<div id="flip2">Парихмахер</div>
+<div id="panel2">
+
+<table>
+<tr>
+    <th>Длина волос</th>
+    <th>Короткие
+       (до 25 см)</th>
+    <th>Средние
+        (до 35 см)</th>
+    <th>Длинные
+    (свыше 35 см)</th>
+   </tr>
+   <tr><td>Стрижка модельная (мытье+укладка по форме)</td>
+   <td>3000 </td>
+   <td>4000</td>
+   <td>5000</td>
+   </tr>
+    <tr><td>Стрижка креативная  (мытье+укладка по форме)</td>
+   <td>3500 </td>
+   <td>4500</td>
+   <td>5500</td>
+   </tr>
+    <tr><td>Стрижка / коррекция челки</td>
+   <td>1000 </td>
+   </tr>
+   <tr><td>Подравнивание одним срезом</td>
+   <td>1000 </td>
+   </tr>
+   <tr><td>Стрижка модельная (мытье+укладка по форме)</td>
+   <td>3000 </td>
+   <td>4000</td>
+   <td>5000</td>
+   </tr>
+   <tr><td>Полировка волос (мытье+укладка по форме)</td>
+   <td>3000 </td>
+   <td>4000</td>
+   <td>5000</td>
+   </tr>
+   <tr><td>Укладка волос феном (мытье+укладка по форме)</td>
+   <td>3000 </td>
+   <td>4000</td>
+   <td>5000</td>
+   </tr>
+   <tr><td>Укладка волос термоинструментами (мытье+укладка по форме)</td>
+   <td>3000 </td>
+   <td>4000</td>
+   <td>5000</td>
+   </tr>
+
+
+</table>
+</div>
+<div id="flip3">Парихмахер</div>
+<div id="panel3">
+
+<table>
+<tr>
+    <th>Длина волос</th>
+    <th>Короткие
+       (до 25 см)</th>
+    <th>Средние
+        (до 35 см)</th>
+    <th>Длинные
+    (свыше 35 см)</th>
+   </tr>
+   <tr><td>Стрижка модельная (мытье+укладка по форме)</td>
+   <td>3000 </td>
+   <td>4000</td>
+   <td>5000</td>
+   </tr>
+    <tr><td>Стрижка креативная  (мытье+укладка по форме)</td>
+   <td>3500 </td>
+   <td>4500</td>
+   <td>5500</td>
+   </tr>
+    <tr><td>Стрижка / коррекция челки</td>
+   <td>1000 </td>
+   </tr>
+   <tr><td>Подравнивание одним срезом</td>
+   <td>1000 </td>
+   </tr>
+   <tr><td>Стрижка модельная (мытье+укладка по форме)</td>
+   <td>3000 </td>
+   <td>4000</td>
+   <td>5000</td>
+   </tr>
+   <tr><td>Полировка волос (мытье+укладка по форме)</td>
+   <td>3000 </td>
+   <td>4000</td>
+   <td>5000</td>
+   </tr>
+   <tr><td>Укладка волос феном (мытье+укладка по форме)</td>
+   <td>3000 </td>
+   <td>4000</td>
+   <td>5000</td>
+   </tr>
+   <tr><td>Укладка волос термоинструментами (мытье+укладка по форме)</td>
+   <td>3000 </td>
+   <td>4000</td>
+   <td>5000</td>
+   </tr>
+
+
+</table>
+</div><footer> 
+@familiaastana 
+</footer>
+
+
+	
+
+
+</body>
+</html>

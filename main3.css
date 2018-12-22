@@ -1,0 +1,672 @@
+@media screen and (max-width: 2000px){
+	body{
+	margin: 0;
+	font-family: 'Maven Pro';
+ }
+.main_section1{
+	display:flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	width: 100vw;
+	height: 100vh;
+	flex-wrap: wrap; 
+	margin-left: 5vh;
+	margin-right: 5vw; 
+
+
+}
+.main1{
+				display:flex;
+				flex-direction: row;
+				width:500px;
+				border:5px solid pink;
+				border-radius: 10px;
+
+			}
+			.left{margin-left:30px;}
+			img
+			{margin-left: 10px;
+			margin-top:10px;
+
+			}
+				
+
+.main_section { 
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: center;
+ width: 100vw;
+ height: 100vh;
+ flex-wrap: wrap;
+ margin-left: 4vw;
+ margin-right:4vw:  
+} 
+
+.cards { 
+
+display: flex;  
+align-items: center;
+flex-wrap: wrap
+} 
+.card {   
+border-radius: 5px; 
+border-style: solid;
+border-width: 1px:
+border-color: red;
+margin-left: 1vw;
+margin-right: 1vw;
+margin-top: 2vh   
+} 
+.card{
+	display: flex;
+	flex-direction: column;
+}
+
+.price { 
+font-weight: bold; 
+}
+
+.main{
+	color: black;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	height: 100vh;
+	min-height: 600px;
+	background-image: url("http://29secrets.com/wp-content/uploads/2016/10/29s_matrix-beauty-panel-810x548.gif");  
+	background-size: cover;
+	position: relative;
+}
+html{
+	font-size: 20px;
+}
+.main-overlay{
+	position: absolute;
+	left: 0;
+	top:0;
+	width: 100%;
+	height: 100%;
+	opacity: 0.7;
+	z-index: 0;
+	background-image: url("http://29secrets.com/wp-content/uploads/2016/10/29s_matrix-beauty-panel-810x548.gif"); 
+	background-size: cover;
+
+
+
+}
+
+.header{
+	display: flex;
+	justify-content: space-between;
+	height: 10vh;
+	align-items: center;
+	width: 90%;
+	position: relative;
+	z-index: 2;
+	
+}
+.menu{
+	width: 100%;
+}
+
+.menu ul{
+	display: flex;
+	justify-content: space-around;
+	list-style: none;
+
+
+}
+.menu-link{
+	color:black;
+	border: 1px ;
+	text-decoration: none;
+	font-weight:bold;
+}
+.menu a:hover {  
+color: white; 
+opacity: 0.8;
+} 
+.registration{
+	margin-left: 50px; 
+	border: 1px solid black;
+	text-decoration: none;
+	padding: 10px 20px;
+	border-radius: 10px;
+	color: black;
+	text-transform: uppercase;
+	font-weight:bold;
+}
+.main-text{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	position: relative;
+	z-index:2;
+	text-align: center;
+}
+.main-text span{
+	position: relative;
+	z-index:2;
+	text-align: center;
+
+}
+.main-text h1{
+	font-size: 50px;
+}
+.main-arrow{
+	position: relative;
+	height: 10vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 2;
+	
+
+}
+.table{
+	background-image: url("http://www.solidbackgrounds.com/images/1920x1080/1920x1080-pale-pink-solid-color-background.jpg"); 
+	opacity: 0.2;
+	height: 100vh;
+	min-height: 600px;
+	padding: 3rem;
+	z-index: 0;
+
+}
+.table-header{
+	text-align: center;
+	margin-bottom: 2rem;
+}
+.table-header span{
+	text-transform: uppercase;
+	font-size: 2rem;
+	color: #9fa4af;
+}
+
+
+.price-tags{
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	v
+
+}
+.price-tag{
+	border-radius: 10%;
+	background-color: white;
+	padding: 1rem;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+    border:1px solid red;
+    width: 300px;
+    transition: 1s;
+  
+  
+}
+.price-tag:hover{
+	cursor: pointer;
+	 box-shadow: 0px 0px 81.88px 10.12px rgba(204,204,223,0.71)
+
+}
+.price-tag span{
+	font-size: 1rem;
+	padding-top: 2rem; 
+}
+.price-tag p{
+	color: #9fa4af;
+}
+
+img{
+	height: 75px;
+	width: 100px;
+}
+footer { 
+color: rgba(255, 255, 255, 0.9); 
+background: black; 
+width: 100%; 
+text-align: center; 
+padding: 12px 0; 
+
+} 
+.main-arrow{
+	background-image: url("http://www.solidbackgrounds.com/images/1920x1080/1920x1080-pale-pink-solid-color-background.jpg");
+}
+
+table {
+    border-collapse: collapse;
+    display: flex;
+    justify-content: space-around;
+    background-color: PeachPuff; 
+}
+table, th, td {
+   border: 5px solid white;
+   padding: 20px 20px 20px 20px;
+   color:white;
+}
+
+ 
+.edit{
+	background-image: url("http://slodive.com/wp-content/uploads/2012/04/wood-background/wood-dark-background.jpg");
+	border-left: white 1px solid;
+	color: white;
+	text-transform: uppercase;
+	font-size: 1rem; 
+	font-weight: 300;
+	border-radius: 50px: 
+	padding-right: 1rem;
+}
+}
+@media screen and (max-width: 1191px){
+	body{
+	margin: 0;
+	font-family: 'Maven Pro';
+ }
+html{
+	font-size: 16px; 
+}
+.main{
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	height: 100vh;
+	min-height: 600px;
+	background-image: url("http://29secrets.com/wp-content/uploads/2016/10/29s_matrix-beauty-panel-810x548.gif");  
+	background-size: cover;
+	position: relative;
+}
+
+.main-overlay{
+	position: absolute;
+	left: 0;
+	top:0;
+	width: 100%;
+	height: 100%;
+	opacity: 0.7;
+	z-index: 0;
+	background-image: url(""); 
+	background-size: cover;
+
+
+
+}
+
+.header{
+	display: flex;
+	justify-content: space-between;
+	height: 10vh;
+	align-items: center;
+	width: 90%;
+	position: relative;
+	z-index: 2;
+	
+}
+.menu{
+	width: 100%;
+}
+
+.menu ul{
+	display: flex;
+	justify-content: space-around;
+	list-style: none;
+
+
+}
+.menu-link{
+	color:white;
+	border: 1px ;
+	text-decoration: none;
+	font-weight:bold;
+}
+.menu a:hover {  
+color: white; 
+opacity: 0.8;
+} 
+.registration{
+	margin-left: 50px; 
+	border: 1px solid white;
+	text-decoration: none;
+	padding: 10px 20px;
+	border-radius: 10px;
+	color: white;
+	text-transform: uppercase;
+	font-weight:bold;
+	display: none;
+}
+.main-text{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	position: relative;
+	z-index:2;
+	text-align: center;
+}
+.main-text span{
+	position: relative;
+	z-index:2;
+	text-align: center;
+
+}
+.main-text h1{
+	font-size: 50px;
+}
+.main-arrow{
+	position: relative;
+	height: 10vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 2;
+	
+
+}
+.table{
+	background-image: url("http://slodive.com/wp-content/uploads/2012/04/wood-background/wood-dark-background.jpg"); 
+	opacity: 0.9;
+	height: 100vh;
+	min-height: 600px;
+	padding: 3rem;
+	z-index: 0;
+
+}
+.table-header{
+	text-align: center;
+	margin-bottom: 2rem;
+}
+.table-header span{
+	text-transform: uppercase;
+	font-size: 2rem;
+	color: #9fa4af;
+}
+
+
+.price-tags{
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	v
+
+}
+.price-tag{
+	border-radius: 10%;
+	background-color: white;
+	padding: 1rem;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+    border:1px solid red;
+    width: 300px;
+   transition: 1s;
+  
+  
+}
+.price-tag:hover{
+	cursor: pointer;
+	 box-shadow: 0px 0px 81.88px 10.12px rgba(204,204,223,0.71)
+
+}
+.price-tag span{
+	font-size: 1rem;
+	padding-top: 2rem; 
+}
+.price-tag p{
+	color: #9fa4af;
+}
+
+img{
+	height: 75px;
+	width: 100px;
+}
+footer { 
+color: rgba(255, 255, 255, 0.9); 
+background: black; 
+width: 100%; 
+text-align: center; 
+padding: 12px 0; 
+
+} 
+.main-arrow{
+	background-image: url("http://slodive.com/wp-content/uploads/2012/04/wood-background/wood-dark-background.jpg");
+}
+
+table {
+    border-collapse: collapse;
+    display: flex;
+    justify-content: space-around;
+    background-color: olive; 
+}
+table, th, td {
+   border: 5px solid white;
+   padding: 20px 20px 20px 20px;
+   color:white;
+}
+
+ 
+.edit{
+	background-image: url("http://slodive.com/wp-content/uploads/2012/04/wood-background/wood-dark-background.jpg");
+	border-left: white 1px solid;
+	color: white;
+	text-transform: uppercase;
+	font-size: 1rem; 
+	font-weight: 300;
+	border-radius: 50px: 
+	padding-right: 1rem;
+}
+}
+@media screen and (max-width: 759px){
+	body{
+	margin: 0;
+	font-family: 'Maven Pro';
+}
+html{
+	font-size: 10px;
+}
+
+.main{
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	height: 100vh;
+	min-height: 600px;
+	background-image: url("http://29secrets.com/wp-content/uploads/2016/10/29s_matrix-beauty-panel-810x548.gif");  
+	background-size: cover;
+	position: relative;
+}
+.main-overlay{
+	position: absolute;
+	left: 0;
+	top:0;
+	width: 100%;
+	height: 100%;
+	opacity: 0.7;
+	z-index: 0;
+	background-image: url("http://www.solidbackgrounds.com/images/2880x1800/2880x1800-olive-drab-number-seven-solid-color-background.jpg"); 
+	background-size: cover;
+
+
+
+}
+
+
+.header{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	height: 10vh;
+	align-items: center;
+	width: 100%;
+	position: relative;
+	z-index: 2;
+	
+}
+.menu{
+	width: 100%;
+}
+
+.menu ul{
+	display: flex;
+	justify-content: space-around;
+	list-style: none;
+
+
+}
+.menu-link{
+	color:white;
+	border: 1px ;
+	text-decoration: none;
+	font-weight:bold;
+}
+.menu a:hover {  
+color: white; 
+opacity: 0.8;
+} 
+.registration{
+	margin-left: 50px; 
+	border: 1px solid white;
+	text-decoration: none;
+	padding: 10px 20px;
+	border-radius: 10px;
+	color: white;
+	text-transform: uppercase;
+	font-weight:bold;
+	display: none;
+}
+.main-text{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	position: relative;
+	z-index:2;
+	text-align: center;
+}
+.main-text span{
+	position: relative;
+	z-index:2;
+	text-align: center;
+
+}
+.main-text h1{
+	font-size: 1rem;
+}
+.main-arrow{
+	position: relative;
+	height: 5vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 2;
+	
+
+}
+.table{
+	background-image: url("http://slodive.com/wp-content/uploads/2012/04/wood-background/wood-dark-background.jpg"); 
+	opacity: 0.9;
+	height: 100vh;
+	min-height: 600px;
+	padding: 3rem;
+	z-index: 0;
+
+}
+.table-header{
+	text-align: center;
+	margin-bottom: 2rem;
+}
+.table-header span{
+	text-transform: uppercase;
+	font-size: 2rem;
+	color: #9fa4af;
+}
+
+
+.price-tags{
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	v
+
+}
+.price-tag{
+	border-radius: 10%;
+	background-color: white;
+	padding: 1rem;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+    border:1px solid red;
+    width: 300%;
+   transition: 1s;
+  
+  
+}
+.price-tag:hover{
+	cursor: pointer;
+	 box-shadow: 0px 0px 81.88px 10.12px rgba(204,204,223,0.71)
+
+}
+.price-tag span{
+	font-size: 1rem;
+	padding-top: 2rem; 
+}
+.price-tag p{
+	color: #9fa4af;
+}
+
+img{
+	height: 75px;
+	width: 100px;
+}
+footer { 
+color: rgba(255, 255, 255, 0.9); 
+background: black; 
+width: 100%; 
+text-align: center; 
+padding: 12px 0; 
+
+} 
+.main-arrow{
+	background-image: url("http://slodive.com/wp-content/uploads/2012/04/wood-background/wood-dark-background.jpg");
+}
+
+table {
+    border-collapse: collapse;
+    display: flex;
+    justify-content: space-around;
+    background-color: olive; 
+}
+table, th, td {
+   border: 5px solid white;
+   padding: 20px 20px 20px 20px;
+   color:white;
+}
+
+ 
+.edit{
+	background-image: url("http://slodive.com/wp-content/uploads/2012/04/wood-background/wood-dark-background.jpg");
+	border-left: white 1px solid;
+	color: white;
+	text-transform: uppercase;
+	font-size: 1rem; 
+	font-weight: 300;
+	border-radius: 50px: 
+	padding-right: 1rem;
+}
+}
+.main-arrow{
+	background-image: url("http://slodive.com/wp-content/uploads/2012/04/wood-background/wood-dark-background.jpg");
+}
+
